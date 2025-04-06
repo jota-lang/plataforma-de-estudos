@@ -8,4 +8,5 @@ body{
   min-height: 100vh;
   width: 100vw;
   font-family: poppins, sans-serif;
+  background: linear-gradient(to right, #c7a86e, #a86b31);
 }

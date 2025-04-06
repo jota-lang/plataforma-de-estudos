@@ -7,7 +7,6 @@ const Login = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Adicione aqui a lógica de autenticação
         console.log('Email:', email);
         console.log('Password:', password);
     };
@@ -39,6 +38,9 @@ const Login = () => {
                             required
                         />
                     </div>
+                    <span id='forget-button-container'>
+                        <button id='forget-button' type='button'>Esqueceu a senha?</button> 
+                    </span>
                     <button type="submit" className="login-button">Entrar</button>
                 </form>
             </div>
